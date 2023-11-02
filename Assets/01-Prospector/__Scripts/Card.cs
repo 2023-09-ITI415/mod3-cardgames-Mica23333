@@ -77,11 +77,14 @@ public class Card : MonoBehaviour {
 			back.SetActive(!value);
 		}
 	}
+    virtual public void OnMouseUpAsButton()
+    {
+        print(name); // When clicked, this outputs the card name
+    }
 
-
-	// Use this for initialization
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    // Update is called once per frame
+    void Update () {
 	
 	}
 } // class Card

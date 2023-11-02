@@ -25,8 +25,9 @@ public class Layout : MonoBehaviour
     public SlotDef drawPile;
     public SlotDef discardPile;
     // This holds all of the possible names for the layers set by layerID
-    public string[] sortingLayerNames = new string[] { "Row0", "Row1",
-"Row2", "Row3", "Discard", "Draw" };
+    public string[] sortingLayerNames = 
+        new string[] { "Row0", "Row1",
+            "Row2", "Row3", "Discard", "Draw" };
     public void ReadLayout(string xmlText)
     {
         xmlr = new PT_XMLReader();
